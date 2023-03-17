@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portfolio Website</title>
+</head>
+<body>
+   <main class="relative flex justify-center h-screen bg-green-500 font-sans-serif" id="ian">
+      <nav class="flex absolute bg-white w-3/4 justify-between rounded-full mt-10 py-6 px-8 shadow-2xl ">
+        <a href="index.html" class="font-bold text-2xl">Home</a>
+        <ul class="flex gap-12">
+          <li><a href="ian.html" class="active:text-red-500 text-xl font-semibold">Fatou</a></li>
+        </ul>
+      </nav>
+   </main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.waves.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.birds.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.rings.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.trunk.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.topology.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.ripple.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.halo.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.globe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.fog.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.dots.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.clouds2.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.cells.min.js"></script>
+
+<script>
+    // Replace this object with your background
+     VANTA.HALO({
+  el: '#ian', // element selector string or DOM object reference
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00
+})
+    </script>
+</body>
+</html>
